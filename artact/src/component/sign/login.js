@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/sign/login.css';
 function login(){
     return(
         <div>
