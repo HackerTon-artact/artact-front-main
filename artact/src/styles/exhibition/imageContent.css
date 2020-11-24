@@ -1,0 +1,49 @@
+.imageContent-container{
+    display:flex;
+    flex-direction: column;
+    width: 50rem;
+    margin-top: 2.5rem;  
+    /*margin-top: Header부분 여백*/
+}
+
+.imageContent-mainContent{
+    display:flex; 
+    justify-content: space-around;
+}
+
+ .roll{
+    transform: rotate(180deg);
+}
+.mainImage-form{
+    height: 20rem;
+    width: 40rem;
+    background-color: #ddd;
+}
+.mainImage{
+    margin-top: 1rem;
+    width: auto;
+    height: 18rem;
+}
+.explanation{
+    text-align: left;
+    margin-left: 1rem;
+}
+.explanation-content{
+    text-align: left;
+    border: 1px solid #F0F0F0;
+    height: 7.5rem;
+    overflow: hidden;
+    margin-left:1rem;
+    border-radius: 0.1rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.title{
+    margin-bottom: -1rem;
+    margin-left: 1rem;
+}
+.clickImage{
+    width: 2rem;
+    height: auto;
+    cursor: pointer;   
+}

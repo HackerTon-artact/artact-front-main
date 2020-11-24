@@ -1,8 +1,9 @@
 import React from 'react';
+import ImageForm from './imageForm.js';
 function index(){
     return(
         <div>
-            Hello React!
+            <ImageForm></ImageForm>
         </div>
     );
 }
